@@ -1,12 +1,11 @@
 {
-  "name": "swig",
-  "version": "2.0.0",
-  "description": "A refresh of Swig, maybe",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/paularmstrong/swig.git"
-  },
-  "dependencies": {},
-  "license": "MIT",
-  "main": "index"
+    "description": "A refresh of Swig, maybe", 
+    "license": "MIT", 
+    "main": "index", 
+    "name": "swig", 
+    "repository": {
+        "type": "git", 
+        "url": "http://github.com/paularmstrong/swig.git"
+    }, 
+    "version": "2.0.0"
 }

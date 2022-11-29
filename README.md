@@ -1,13 +1,6 @@
-NOT MAINTAINED
-====
-
-Fork and use at your own risk.
 
 
-Swig [![Build Status](http://img.shields.io/travis/paularmstrong/swig/master.svg?style=flat)](http://travis-ci.org/paularmstrong/swig) [![Dependency Status](http://img.shields.io/gemnasium/paularmstrong/swig.svg?style=flat)](https://gemnasium.com/paularmstrong/swig) [![NPM version](http://img.shields.io/npm/v/swig.svg?style=flat)](https://www.npmjs.org/package/swig) [![NPM Downloads](http://img.shields.io/npm/dm/swig.svg?style=flat)](https://www.npmjs.org/package/swig)
-====
-
-[Swig](http://paularmstrong.github.io/swig/) is an awesome, Django/Jinja-like template engine for node.js.
+Swig is an awesome, Django/Jinja-like template engine for node.js. This fork contains no dependencies, and therefore won't make `npm audit` lose it's mind.
 
 Features
 --------
@@ -19,15 +12,7 @@ Features
 * Automatically escapes all output for safe HTML rendering.
 * Lots of iteration and conditionals supported.
 * Robust without the bloat.
-* Extendable and customizable. See [Swig-Extras](https://github.com/paularmstrong/swig-extras) for some examples.
-* Great [code coverage](http://paularmstrong.github.io/swig/coverage.html).
-
-Need Help? Have Questions? Comments?
-------------------------------------
-
-* [Mailing List/Google Group](http://groups.google.com/forum/#!forum/swig-templates)
-* [StackOverflow](http://stackoverflow.com/questions/tagged/swig-template)
-* [Migration Guide](https://github.com/paularmstrong/swig/wiki/Migrating-from-v0.x.x-to-v1.0.0)
+* No dependencies
 
 Installation
 ------------
@@ -81,14 +66,3 @@ How it works
 ------------
 
 Swig reads template files and translates them into cached javascript functions. When we later render a template we call the evaluated function, passing a context object as an argument.
-
-License
--------
-
-Copyright (c) 2010-2013 Paul Armstrong
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

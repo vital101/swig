@@ -1,11 +1,29 @@
 {
-    "description": "A refresh of Swig, maybe", 
-    "license": "MIT", 
-    "main": "index", 
-    "name": "swig", 
+    "name": "swig",
+    "version": "1.5.0",
+    "description": "A simple, powerful, and extendable templating engine for node.js and browsers, similar to Django, Jinja2, and Twig.",
+    "keywords": [
+      "template",
+      "templating",
+      "html",
+      "django",
+      "jinja",
+      "twig",
+      "express",
+      "block"
+    ],
     "repository": {
-        "type": "git", 
-        "url": "http://github.com/paularmstrong/swig.git"
-    }, 
-    "version": "2.0.0"
-}
+      "type": "git",
+      "url": "https://github.com/vital101/swig"
+    },
+    "license": "MIT",
+    "main": "index",
+    "engines": {
+      "node": ">=16.18.1"
+    },
+    "config": {
+      "blanket": {
+        "pattern": "swig/lib"
+      }
+    }
+  }
